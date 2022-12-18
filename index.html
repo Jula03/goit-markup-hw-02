@@ -4,157 +4,177 @@
     <meta charset="utf-8" />
     <meta name="description" content="Strona internetowa Studio" />
     <title>Studio</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="#studio">WebStudio</a></li>
-          <li><a href="#agencja">Agencja</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#kontakt">Kontakt</a></li>
+    <div class="page-dimensions">
+      <header class="menu">
+        <nav class="navigation">
+          <ul>
+            <li>
+              <a class="navigation-logo" href="index.html"
+                ><span class="first-letters">Web</span>Studio</a
+              >
+            </li>
+            <li><a class="navigation-agency" href="#agencja">Agencja</a></li>
+            <li><a class="navigation-portfolio" href="portfolio.html">Portfolio</a></li>
+            <li><a class="navigation-kontakt" href="#kontakt">Kontakt</a></li>
+          </ul>
+        </nav>
+        <ul class="contact">
+          <li><a class="contact-mail" href="mailto:info@example.com">info@example.com</a></li>
+          <li><a class="contact-phone" href="tel:+48111111111">+48 111 111 111</a></li>
         </ul>
-      </nav>
-      <ul>
-        <li><a href="mailto:info@example.com">info@example.com</a></li>
-        <li><a href="tel:+48111111111">+48 111 111 111</a></li>
-      </ul>
-    </header>
-    <main>
-      <section>
-        <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-        <button type="button">Zamów usługę</button>
-      </section>
-      <section>
+      </header>
+      <main>
+        <section class="introduction">
+          <h1 class="introduction-title">
+            EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU
+          </h1>
+          <button class="introduction-button" type="button">Zamów usługę</button>
+        </section>
+        <section class="descriptions">
+          <ul>
+            <li>
+              <h2 class="description-title-1">Lorem ipsum</h2>
+              <p class="description-1">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                arcu sem. Sed non sodales dui. Interdum et malesuada
+              </p>
+            </li>
+            <li>
+              <h2 class="description-title-2">Lorem ipsum</h2>
+              <p class="description-2">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                arcu sem. Sed non sodales dui. Interdum et malesuada
+              </p>
+            </li>
+            <li>
+              <h2 class="description-title-3">Lorem ipsum</h2>
+              <p class="description-3">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                arcu sem. Sed non sodales dui. Interdum et malesuada
+              </p>
+            </li>
+            <li>
+              <h2 class="description-title-4">Lorem ipsum</h2>
+              <p class="description-4">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                arcu sem. Sed non sodales dui. Interdum et malesuada
+              </p>
+            </li>
+          </ul>
+        </section>
+        <section>
+          <h2 class="actions-title">Czym się zajmujemy</h2>
+          <ul>
+            <li>
+              <img
+                class="actions-picture-1"
+                src="images/programist1.jpg"
+                alt="Programista piszący kod"
+              />
+            </li>
+            <li>
+              <img
+                class="actions-picture-2"
+                src="images/programistwithphone.jpg"
+                alt="Programista z telefonem"
+              />
+            </li>
+            <li>
+              <img
+                class="actions-picture-3"
+                src="images/programist3.jpg"
+                alt="Programista z paletą kolorów"
+              />
+            </li>
+          </ul>
+        </section>
+        <section class="team">
+          <h2 class="team-title">Nasz zespół</h2>
+          <ul>
+            <li>
+              <figure class="employee-1">
+                <img
+                  src="images/employee1.jpg"
+                  alt="Pracownik 1"
+                  width="270"
+                  height="260"
+                />
+                <figcaption class="caption-1">
+                  <p class="names">John Doe</p>
+                  <p class="positions">Product Designer</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure class="employee-2">
+                <img
+                  src="images/employee2.jpg"
+                  alt="Pracownik 2"
+                  width="270"
+                  height="260"
+                />
+                <figcaption class="caption-2">
+                  <p class="names">John Doe</p>
+                  <p class="positions">Frontend Developer</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure class="employee-3">
+                <img
+                  src="images/employee3.jpg"
+                  alt="Pracownik 3"
+                  width="270"
+                  height="260"
+                />
+                <figcaption class="caption-3">
+                  <p class="names">John Doe</p>
+                  <p class="positions">Marketing</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure class="employee-4">
+                <img
+                  src="images/employee4.jpg"
+                  alt="Pracownik 4"
+                  width="270"
+                  height="260"
+                />
+                <figcaption class="caption-4">
+                  <p class="names">John Doe</p>
+                  <p class="positions">UI Designer</p>
+                </figcaption>
+              </figure>
+            </li>
+          </ul>
+        </section>
+      </main>
+      <footer class="footer">
+        <a class="footer-logo" href="#studio"
+          ><span class="first-letters">Web</span>Studio</a
+        >
+        <address class="footer-address">
+          m. Warszawa, Aleje Jerozolimskie 21
+        </address>
         <ul>
           <li>
-            <h2>Lorem ipsum</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-              arcu sem. Sed non sodales dui. Interdum et malesuada
-            </p>
+            <a class="footer-mail" href="mailto:info@example.com"
+              >info@example.com</a
+            >
           </li>
           <li>
-            <h2>Lorem ipsum</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-              arcu sem. Sed non sodales dui. Interdum et malesuada
-            </p>
-          </li>
-          <li>
-            <h2>Lorem ipsum</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-              arcu sem. Sed non sodales dui. Interdum et malesuada
-            </p>
-          </li>
-          <li>
-            <h2>Lorem ipsum</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-              arcu sem. Sed non sodales dui. Interdum et malesuada
-            </p>
+            <a class="footer-phone" href="tel:+48111111111">+48 111 111 111</a>
           </li>
         </ul>
-      </section>
-      <section>
-        <h2>Czym się zajmujemy</h2>
-        <ul>
-          <li>
-            <img
-              src="images/programist1.jpg"
-              alt="Programista piszący kod"
-              width="370"
-              height="294"
-            />
-          </li>
-          <li>
-            <img
-              src="images/programistwithphone.jpg"
-              alt="Programista z telefonem"
-              width="370"
-              height="294"
-            />
-          </li>
-          <li>
-            <img
-              src="images/programist3.jpg"
-              alt="Programista z paletą kolorów"
-              width="370"
-              height="294"
-            />
-          </li>
-        </ul>
-      </section>
-      <section>
-        <h2>Nasz zespół</h2>
-        <ul>
-          <li>
-            <figure>
-              <img
-                src="images/employee1.jpg"
-                alt="Pracownik 1"
-                width="270"
-                height="260"
-              />
-              <figcaption>
-                <p>John Doe</p>
-                <p>Product Designer</p>
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img
-                src="images/employee2.jpg"
-                alt="Pracownik 2"
-                width="270"
-                height="260"
-              />
-              <figcaption>
-                <p>John Doe</p>
-                <p>Frontend Developer</p>
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img
-                src="images/employee3.jpg"
-                alt="Pracownik 3"
-                width="270"
-                height="260"
-              />
-              <figcaption>
-                <p>John Doe</p>
-                <p>Marketing</p>
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img
-                src="images/employee4.jpg"
-                alt="Pracownik 4"
-                width="270"
-                height="260"
-              />
-              <figcaption>
-                <p>John Doe</p>
-                <p>UI Designer</p>
-              </figcaption>
-            </figure>
-          </li>
-        </ul>
-      </section>
-    </main>
-    <footer>
-      <a href="#studio">WebStudio</a>
-      <address>m. Warszawa, Aleje Jerozolimskie 21</address>
-      <ul>
-        <li><a href="mailto:info@example.com">info@example.com</a></li>
-        <li><a href="tel:+48111111111">+48 111 111 111</a></li>
-      </ul>
-    </footer>
+      </footer>
+    </div>
   </body>
 </html>
